@@ -5,7 +5,7 @@
 //http://127.0.0.1:3000/
 // }
   var app = {
-    server: 'https://127.0.0.1:3000/classes/messages',
+    server: 'http://127.0.0.1:3000/classes/messages',
     init : function(){},
     send: function(message){
       $.ajax({
